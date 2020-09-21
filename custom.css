@@ -1,0 +1,114 @@
+      body {
+        padding-top: 154px;
+      }
+      @media (min-width: 992px) {
+        body {
+          padding-top: 56px;
+        }
+      }
+/*
+ *  Background image
+ */ 
+.bkgrd img{
+	width: 90%;
+	height:600px;
+}
+.bkgrd:hover img{
+	transform: scale(1.1);
+	transition: all 1s;
+	}	
+/*
+ * Pills
+ */  
+.nav-link.active,.nav-pills .show>.nav-link{
+	transform: scale(1.2);	
+	}
+
+/*
+ * Center-pane
+ */  
+.center-pane{
+  position: absolute;
+  top: 0;
+  
+  height: calc(100vh - 48px);
+  padding-top: 54px;
+  padding-left: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/*
+ * Chat-item
+ */ 
+ .item {
+        position: relative;
+        width: 300px;
+        min-height: 30px;
+        background: #eaf4f7;
+        border-radius: 5px;     
+        margin-left: 10px;
+		margin-bottom: 15px;
+        word-break: break-word;
+        color: black;
+        padding: 5px;
+        line-height: 18px;
+    }
+/*
+ * Right-side
+ */  
+.right-side{
+  position: fixed;
+  top: 40px;
+  right: 10px;
+}
+	  
+	  
+/*
+ * Sidebar (from turtorial)
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+
+.sidebar .nav-link {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #fff;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active{
+  color: inherit;
+}

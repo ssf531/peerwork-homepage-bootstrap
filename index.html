@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>My Peer-work</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="custom.css" rel="stylesheet">
+  <!-- Icons from fontawesome.com -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Peer-work</a>
+      <form class="form-inline" style="padding-left: 70px;" action="index.html">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search form library">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-home"></i>Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href=""><i class="far fa-comment-dots"></i> Notification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#loginModal" href=""><i class="fas fa-sign-in-alt"></i> Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <!-- Side bar -->
+      <nav class="col-lg-1.5 d-none d-md-block navbar-primary sidebar my-2">
+        <!-- Side bar pills -->
+        <ul class="nav nav-pills flex-column" role="tablist" >
+
+          <li class="nav-item" >
+            <a class="nav-link active" href="#dashboard" data-toggle="pill"  >
+              <i class="fas fa-tachometer-alt fa-2x"></i><br>
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses" data-toggle="pill"  >
+              <i class="fas fa-book fa-2x"></i><br>
+              Courses
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#assignment" data-toggle="pill">
+              <i class="fas fa-pencil-alt fa-2x"></i><br>
+              Assignment
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="" >
+              <i class="fas fa-comments fa-2x"></i><br>
+              Group Chat
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#calendar" data-toggle="pill">
+              <i class="far fa-calendar-alt fa-2x"></i><br>
+              Calendar
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="">
+              <i class="fas fa-book-open fa-2x"></i><br>
+              Library
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#member" data-toggle="pill">
+              <i class="fas fa-user-friends fa-2x"></i><br>
+              Member
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Side bar End-->
+
+      <!-- Center content -->
+      <div class="tab-content" style="position: absolute; padding-top: 20px;  padding-left: 80px; padding-right: 250px; overflow-x: hidden;overflow-y: auto;" >
+        <!-- Dashboard -->
+        <div  id="dashboard" class="container tab-pane active" >
+          <div class="bkgrd">
+            <img src="image/Physical Education.jpg" alt="">
+          </div>
+        </div>
+        <!-- Dashboard End -->
+
+        <!-- Courses -->
+        <div id="courses" class="container tab-pane" >
+          <div class="row ">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div style="height: 100%;"  class="card">
+                <img class="card-img-top" src="image/Human Anatomy.png" width="500px" height="250px" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">101 Human Anatomy</h4>
+                  <p class="card-text text-primary">Lecturer: Brian</p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Related Materials</a>
+                </div>
+              </div>
+            </div>
+
+            <div  class="col-lg-4 col-md-6 mb-4">
+              <div style="height: 100%;" class="card">
+                <img class="card-img-top" src="image/Sport Education.jpg" width="500px" height="250px" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">102 Sport Education</h4>
+                  <p class="card-text text-primary">Lecturer: Laura</p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Related Materials</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div style="height: 100%;" class="card">
+                <img class="card-img-top" src="image/Population Health.jpg" width="500px" height="250px" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">103 Population Health</h4>
+                  <p class="card-text text-primary">Lecturer: Neliana</p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" >Related Materials</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Assignment -->
+        <div id="assignment"class="container tab-pane fade">
+          <h2>Current Assignment</h2>
+          <br>
+          <nav class="navbar navbar-expand-sm bg-white navbar-dark sticky-top " >
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#a1">101 A1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#a2">102 A2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#a3">103 A3</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="dropup" >
+            <button type="button" style="position:fixed;margin-left:-40px; margin-top:400px;" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" >
+              Qs
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#q1">Question 1</a>
+              <a class="dropdown-item" href="#q2">Question 2</a>
+            </div>
+          </div>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="a1" class="container tab-pane active"><br>
+              <div class="shadow p-4 mb-4 bg-white">
+                <h3>101 Assignment 1</h3>
+                <p class="text-body">
+                  Praesent sodales egestas enim ac ultrices. Aliquam vel mi magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur interdum tortor lectus, ut ullamcorper dui iaculis at. Praesent viverra orci quis neque pharetra feugiat. Sed at aliquam mauris, in auctor ex. In faucibus pulvinar libero, iaculis condimentum mauris lacinia aliquam. Sed eleifend odio vestibulum enim ullamcorper malesuada. Nunc viverra ante sed semper efficitur. Etiam gravida augue arcu, et finibus risus ornare nec. Duis volutpat justo ut nibh tempor placerat. Aliquam ullamcorper diam pellentesque elit maximus maximus. Praesent in pulvinar odio, fermentum vulputate diam. Ut volutpat aliquet nulla. Duis magna nibh, venenatis id ex nec, faucibus condimentum massa.</p>
+                  <p>To help you complete this assignment, please read 101 related materials in the library.</p>
+                </div>
+                <div class="shadow p-4 mb-4 bg-white">
+                  <!-- question box header-->
+                  <br>
+                  <div id="q1" class="container" >
+                    <h5>Question 1</h5><br>
+                    <p>Proin at condimentum orci. Curabitur pulvinar justo ac arcu vulputate, ac fringilla augue interdum. Cras rhoncus nec leo sed lacinia. Phasellus laoreet id magna in malesuada. Curabitur hendrerit quis libero eget lobortis. Curabitur eu tempor nunc, dignissim mattis justo. Sed vulputate ligula ante, </p>
+
+                    <!-- Answer box-->
+                    <div class="card my-4">
+                      <h5 class="card-header">Give your solotion:</h5>
+                      <div class="card-body">
+                        <form>
+                          <div class="form-group">
+                            <textarea class="form-control" rows="3" placeholder="Text here or upload files by click icons blow"></textarea>
+                          </div>
+                          <a href="#" style="margin-left:5px;margin-right:10px;margin-top:5px;"><i class="far fa-image fa-2x"></i> </a>
+                          <a href="#"style="margin-top:5px;"><i class="far fa-folder-open fa-2x"></i></a>
+
+                          <button type="button" class="btn btn-primary" style="float: right;margin-top:3px;">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                    <!-- Answer box End-->
+
+                    <div class="card my-4" >
+                      <h5 class="card-header">Discussion:</h5><br>
+                      <!-- with nested comments -->
+                      <div class="media mb-4" style="margin-left:10px;margin-right:10px;">
+                        <img class="d-flex mr-3 rounded-circle" src="image/user2.png" width="50px" height="50px"alt="">
+                        <div class="media-body" >
+                          <h6 class="mt-0" >Solution by Lona</h6>
+                          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                          <button type="button" class="btn btn-primary" style="font-size:11px;padding:5px;">Comment</button>
+                          <small><button class="btn btn-danger" style="margin:10px;background-color:#fff; color:#f00; font-size:11px;padding:3px;"><i class="far fa-heart"></i> Like</button></small>
+                          <hr>
+                          <div class="media mt-4" style="margin-left:10px;margin-right:10px;">
+                            <img class="d-flex mr-3 rounded-circle" src="image/user3.png"width="50px" height="50px" alt="">
+                            <div class="media-body">
+                              <h6 class="mt-0">Comment by Maka</h6>
+                              Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                          </div>
+                          <hr>
+                          <div class="media mt-4" style="margin-left:10px;margin-right:10px;">
+                            <img class="d-flex mr-3 rounded-circle" src="image/user4.jpg"width="50px" height="50px" alt="">
+                            <div class="media-body" >
+                              <h6 class="mt-0">Comment by Peta</h6>
+                              Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <!-- Single -->
+                      <div class="media mb-4" style="margin-left:10px;margin-right:10px;">
+                        <img class="d-flex mr-3 rounded-circle" src="image/user1.png" width="50px" height="50px" alt="">
+                        <div class="media-body">
+                          <h6 class="mt-0">Solution by Kyley</h6>
+                          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <button type="button" class="btn btn-primary" style="font-size:11px;padding:5px;">Comment</button>
+                            <small><button class="btn btn-danger" style="margin:10px;background-color:#fff; color:#f00; font-size:11px;padding:3px;"><i class="far fa-heart"></i> Like</button></small>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- question box End-->
+                </div>
+              </div>
+              <div id="a2" class="container tab-pane fade"><br>
+                <div class="shadow p-4 mb-4 bg-white">
+                  <h3>102 Assignment 2</h3>
+                  <p>In in nunc augue. Cras nisi nisi, rhoncus vel felis ac, tincidunt lobortis massa. Quisque vestibulum tincidunt feugiat. Maecenas eget augue ac nisl tristique tristique. Vestibulum tortor neque, lacinia ut risus nec, commodo rutrum diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pulvinar aliquet accumsan. Nulla facilisi. Cras sodales sit amet sapien non rhoncus. Vestibulum interdum, massa ac tincidunt eleifend, sem ex consequat eros, vitae imperdiet nisl orci ut dui.</p>
+                  <p>To help you complete this assignment, please read 102 related materials in the library.</p>
+                </div>
+              </div>
+              <div id="a3" class="container tab-pane fade"><br>
+                <div class="shadow p-4 mb-4 bg-white">
+                  <h3>103 Assignment 3</h3>
+                  <p>Proin non mollis leo. Suspendisse pretium laoreet libero venenatis tincidunt. Nullam ac ornare dolor. Nam mollis ornare molestie. Ut ligula nibh, convallis sed sem mattis, bibendum tincidunt ex. Nullam non ante id diam tempor efficitur. Donec pellentesque arcu leo, ac blandit enim lacinia id. In eget lacus sodales ante eleifend congue ac id sapien. Praesent faucibus odio ac metus consequat posuere. Sed fermentum purus ac ipsum tincidunt posuere. Aliquam bibendum sagittis mollis. Fusce nisl lectus, venenatis et rhoncus eu, rhoncus sed risus. Fusce scelerisque ullamcorper ex ac iaculis. Etiam rutrum dui purus, sed tincidunt mauris laoreet at. Morbi vitae hendrerit ligula.</p>
+                  <p>To help you complete this assignment, please read 103 related materials in the library.</p>
+                </div>
+              </div>
+
+            </div>
+            <!-- Tab panes End-->
+          </div>
+          <!-- Assignment End-->
+          <!-- calendar -->
+          <div  id="calendar" class="container tab-pane " >
+            <img src="image/calendar.jpg" width=110% height="500px" alt="">
+          </div>
+          <!-- calendar End -->
+          <!-- Member -->
+          <div  id="member" class="container tab-pane " >
+            <div class="row">
+              <div class="col-lg-4 text-center mb-3" style="margin-top:30px;">
+                <img class="rounded-circle img-fluid d-block mx-auto" src="image\user1.png" width="50%" alt="">
+                <h3>Tyrone Thoms</h3>
+                <p>Assignment Process:</p>
+                <div class="progress" >
+                  <div class="progress-bar" style="width:70%">70%</div>
+                </div>
+              </div>
+              <div class="col-lg-4  text-center mb-3" style="margin-top:30px;">
+                <img class="rounded-circle img-fluid d-block mx-auto" src="image\user2.png" width="50%" alt="">
+                <h3>Lona Thoms  </h3>
+                <p>Assignment Process:</p>
+                <div class="progress" >
+                  <div class="progress-bar" style="width:60%">60%</div>
+                </div>
+              </div>
+              <div class="col-lg-4  text-center mb-3" style="margin-top:30px;">
+                <img class="rounded-circle img-fluid d-block mx-auto" src="image\user1.png" width="50%" alt="">
+                <h3>Coreen Neliana  </h3>
+                <p>Assignment Process:</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width:40%">40%</div>
+                </div>
+              </div>
+              <br>
+              <div class="col-lg-4  text-center mb-3" style="margin-top:30px;">
+                <img class="rounded-circle img-fluid d-block mx-auto" src="image\user3.png" width="50%" alt="">
+                <h3>Kyley Tristan  </h3>
+                <p>Assignment Process:</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width:50%">50%</div>
+                </div>
+              </div>
+              <div class="col-lg-4  text-center mb-3" style="margin-top:30px;">
+                <img class="rounded-circle img-fluid d-block mx-auto" src="image\user4.jpg" width="57%" alt="">
+                <h3>Maka Mikha  </h3>
+                <p>Assignment Process:</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width:30%">30%</div>
+                </div>
+              </div>
+              <div class="col-lg-4  text-center mb-3" style="margin-top:30px;">
+                <img class="rounded-circle img-fluid d-block mx-auto" src="image\user1.png" width="50%" alt="">
+                <h3>Peta Isaac  </h3>
+                <p>Assignment Process:</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width:55%">55%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Member End -->
+        </div>
+        <!-- Center content End-->
+
+
+
+        <!-- Right Side Widget -->
+        <!-- Profile -->
+        <div  class="right-side" >
+          <div class="shadow ">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-text"><i class="fas fa-user-circle fa-2x"></i>Jonathan</h5>
+                <a href="#" class="btn ">Profile</a>
+                <a style="font-size: 11px" href="#" class="btn btn-primary">Log out</a>
+              </div>
+              <span class="border border-primary"></span>
+            </div>
+          </div>
+          <!-- Group Member -->
+          <div class="card my-4">
+            <div class="shadow ">
+              <h5 class="card-header text-light bg-success" align="" >Group Member</h5>
+              <div class="card-body">
+                <ul class="text-success"  style="list-style-type: square;">
+                  <li>
+                    <i class="fas fa-user-check"></i>
+                    <a href="#" data-toggle="modal" data-target="#chatModal" > Tyrone</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-user-check"></i>
+                    <a href="#" data-toggle="modal" data-target="#chatModal"> Lona</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-user-check"></i>
+                    <a href="#" data-toggle="modal" data-target="#chatModal"> Coreen</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-user-check"></i>
+                    <a href="#" data-toggle="modal" data-target="#chatModal"> Kyley</a>
+                  </li>
+                </ul>
+                <ul class="text-muted" style="list-style-type: circle;">
+
+                  <li>
+                    <i class="fas fa-user-times"></i> Maka
+                  </li>
+                  <li>
+                    <i class="fas fa-user-times"></i> Peta
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Group Member End-->
+          <!-- To do list -->
+          <div class="card my-4">
+            <div class="shadow ">
+              <h5 class="card-header bg-warning text-white" align="">To Do List</h5>
+              <div class="card-body">
+                <ul class="center" style="list-style-type: circle;">
+                  <li>
+                    <a href="#">101 A1</a>
+                  </li>
+                  <li>
+                    <a href="#">102 Quiz </a>
+                  </li>
+                  <li>
+                    <a href="#">103 Test </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- To do list End-->
+        </div>
+        <!-- Right Side Widget End-->
+      </div>
+    </div>
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required  ><br>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-left:20px;"> Remember me
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login Modal End-->
+
+    <!-- Chat Modal -->
+    <div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="chatname1">Tyrone</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <img class="d-flex mr-3 rounded-circle" src="image/user1.png" width="20px" height="20px" alt=""><p class="item" > Hi there, pellentesque habitant morbi tristique senectus. </p>
+                <p class="item"style="float:right;margin-bottom:30px;" > Pellentesque habitant morbi .</p>
+                <br>
+                <img class="d-flex mr-3 rounded-circle" src="image/user1.png" width="20px" height="20px" alt=""><p class="item" > Aliquam vel mi magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+
+              </div>
+              <hr>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control"placeholder="Text here or upload files by click icons blow"></textarea>
+              </div>
+            </form>
+            <small>
+              <a href="#"style="margin-right:10px;"><i class="far fa-image fa-2x"></i> </a>
+              <a href="#"style="margin-right:10px;"><i class="far fa-folder-open fa-2x"></i></a>
+              <a href="#" style="margin-right:10px;"><i class="fas fa-video fa-2x"></i> </a>
+              <a href="#"><i class="fas fa-microphone-alt fa-2x"></i> </a>
+            </small>
+            <button type="button" class="btn btn-primary" style="float:right; font-size:12px;">Send</button>
+          </div>
+          <div class="modal-footer">
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Chat Modal End-->
+
+  </body>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="custom.js"></script>
+  </html>
